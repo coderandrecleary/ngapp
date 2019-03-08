@@ -1,17 +1,15 @@
 {
-  "name": "a4app",
+  "name": "a4",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "node server.js",
     "build": "ng build",
-    "deploy": "gh-pages -d dist",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "postinstall": "ng build --prod"
   },
   "private": true,
-  "homepage": "https://coderandrecleary.github.io/mywebsite",
   "dependencies": {
     "@angular/animations": "~7.2.0",
     "@angular/cli": "~7.3.3",
